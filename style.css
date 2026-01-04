@@ -1,0 +1,1188 @@
+/* Navbar hover ================== */
+.navbar .nav-link:hover {
+    color: #0bd400 !important;
+}
+
+/* Navbar container flex settings (prevents wrapping) */
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap !important;
+}
+
+/* Default desktop size */
+.logo img {
+    height: 55px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.logo img:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+/* Home section ========== */
+.home-section {
+    background-image: url('./assets/images/web-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    position: relative;
+    color: #fff;
+}
+
+/* Overlay */
+.home-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+/* Content above overlay */
+.home-section .container {
+    position: relative;
+    z-index: 1;
+}
+
+.home-section h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.home-section h2:hover {
+    color: #05e386;
+}
+
+.home-section .main-form .input-group {
+    max-width: 520px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    /* IMPORTANT */
+}
+
+.home-section .main-form .form-control {
+    border-radius: 6px 0 0 6px;
+    flex: 1;
+    /* input full width */
+}
+
+.home-section .main-form .btn {
+    border-radius: 0 6px 6px 0;
+    width: 48px;
+    /* IMPORTANT */
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* About section Home Page ============================================ */
+.about-section-home {
+    padding: 10px 0;
+}
+
+/* Image Styling */
+.about-section-home .about-img {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.about-section-home .about-img:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+/* Title */
+.about-section-home .about-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+/* Text */
+.about-section-home .about-text {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+/* Button */
+.about-section-home .about-btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #212529;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.about-section-home .about-btn:hover {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+/* Gallery Section Home Page =============================================*/
+.gallery-section-home {
+    padding: 5px 0;
+}
+
+.gallery-section-home h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.gallery-section-home h2:hover {
+    color: #3100d4;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.gallery-image:hover {
+    transform: translateY(-6px);
+    transform: scale(1.1);
+}
+
+/* Remove anchor underline */
+.gallery-section-home a {
+    text-decoration: none;
+}
+
+/* Card Section Home Page =========== */
+.card-section-home {
+    padding: 5px 0;
+}
+
+/* Section Heading */
+.card-section-home h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #212529;
+    position: relative;
+}
+
+.card-section-home h2:hover {
+    color: #0d6efd;
+}
+
+.card-section-home .card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Card Hover Effect */
+.card-section-home .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-section-home .card-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Card Body */
+.card-section-home .card-body {
+    padding: 10px;
+}
+
+.card-section-home .card-body h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.card-section-home .card-body p {
+    font-size: 14px;
+    color: #6c757d;
+    line-height: 1.6;
+}
+
+.card-section-home .btn {
+    margin-top: 0px;
+    padding: 8px 22px;
+    font-size: 14px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+/* Button Hover */
+.card-section-home .btn:hover {
+    background-color: #0d6efd;
+    color: #fff;
+    border-color: #0d6efd;
+}
+
+/*  contact section for Home  */
+
+.contact-section-home {
+    padding: 5px 0;
+}
+
+/* Section Heading */
+.contact-section-home h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #212529;
+    position: relative;
+}
+
+.contact-section-home h2:hover {
+    color: #0d6efd;
+}
+
+/* Image Card */
+.contact-section-home .card {
+    border: none;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.contact-section-home .card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.contact-section-home .card img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Form Labels */
+.contact-section-home .form-label {
+    font-size: 15px;
+    color: #212529;
+}
+
+/* Inputs */
+.contact-section-home .form-control {
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+    transition: all 0.3s ease;
+}
+
+.contact-section-home .form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.25);
+}
+
+/* Submit Button */
+.contact-section-home .btn-primary {
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.contact-section-home .btn-primary:hover {
+    background-color: #0b5ed7;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(13, 110, 253, 0.3);
+}
+
+/* Team section =================  */
+.team-section {
+    padding: 5px 0;
+}
+
+.team-section .row {
+    padding-left: 100px;
+    padding-right: 100px;
+    /* justify-content: center; */
+}
+
+.team-section h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #212529;
+    position: relative;
+}
+
+.team-section h2:hover {
+    color: #0d6efd;
+}
+
+.team-section .card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.team-section .card:hover {
+    transform: translateY(-8px);
+}
+
+.team-section img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.team-section .card-body {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.team-section .card-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.team-section .card-title:hover {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+.team-section .card-body p {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.team-section i {
+    transition: color 0.3s ease;
+}
+
+.team-section i:hover {
+    color: #0d6efd;
+}
+
+/* ================= About Page Section ================= */
+
+.home-section-about-page {
+    background-image: url('./assets/images/about-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    position: relative;
+    color: #fff;
+}
+
+/* Overlay */
+.home-section-about-page::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+
+/* Content above overlay */
+.home-section-about-page .container {
+    position: relative;
+    z-index: 1;
+}
+
+.home-section-about-page h2 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.home-section-about-page h2:hover {
+    color: #05e386;
+}
+
+/* Search Form */
+.home-section-about-page .main-form .input-group {
+    max-width: 520px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    /* IMPORTANT */
+}
+
+.home-section-about-page .main-form .form-control {
+    border-radius: 6px 0 0 6px;
+    flex: 1;
+    /* input full width */
+}
+
+.home-section-about-page .main-form .btn {
+    border-radius: 0 6px 6px 0;
+    width: 48px;
+    /* IMPORTANT */
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contact page ========================================== */
+.home-section-contact-page {
+    background-image: url('./assets/images/contact-us-page.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    position: relative;
+    color: #fff;
+}
+
+/* Overlay */
+.home-section-contact-page::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+/* Content above overlay */
+.home-section-contact-page .container {
+    position: relative;
+    z-index: 1;
+}
+
+.home-section-contact-page h2 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.home-section-contact-page h2:hover {
+    color: #05e386;
+}
+
+/* Search Form */
+.home-section-contact-page .main-form .input-group {
+    max-width: 520px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    /* IMPORTANT */
+}
+
+.home-section-contact-page .main-form .form-control {
+    border-radius: 6px 0 0 6px;
+    flex: 1;
+    /* input full width */
+}
+
+.home-section-contact-page .main-form .btn {
+    border-radius: 0 6px 6px 0;
+    width: 48px;
+    /* IMPORTANT */
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ============= Gallery Page Design ==================  */
+.gallery-page-section {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Carousel Images */
+.gallery-page-section .carousel-image {
+    height: 450px;
+    object-fit: cover;
+}
+
+/* Caption Styling */
+.gallery-page-section .carousel-caption {
+    background: rgba(0, 0, 0, 0.55);
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.gallery-page-section .carousel-caption h5 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.gallery-page-section .carousel-caption p {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+/* Indicators */
+.carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    color: white;
+    border-radius: 50%;
+}
+
+/* Controls Hover */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: brightness(0) invert(1);
+}
+
+/* Course Wordpress Page ======================================= */
+.home-section-wordpress {
+    background-image: url('./assets/images/image-gallery-8.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.home-section-wordpress::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.home-section-wordpress .container {
+    position: relative;
+    z-index: 2;
+}
+
+.home-section-wordpress h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.home-section-wordpress p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.home-section-wordpress h2:hover,
+.home-section-wordpress p:hover {
+    color: red;
+}
+
+/* WordPress Registration Section */
+.wordpress-registration-section {
+    padding: 0 0;
+}
+
+.wordpress-registration-section h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #222;
+}
+
+.wordpress-registration-section h2:hover {
+    color: #0d6efd;
+}
+
+/* Card Styling */
+.wordpress-registration-section .card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+}
+
+.wordpress-registration-section .card:hover {
+    transform: translateY(-5px);
+}
+
+/* Image */
+.wordpress-registration-section img {
+    height: 400px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+/* Form Card */
+.wordpress-registration-section .registration-card {
+    padding: 10px;
+}
+
+/* Labels */
+.wordpress-registration-section .form-label {
+    font-weight: 600;
+    color: #333;
+    font-size: 14px;
+}
+
+/* Inputs */
+.wordpress-registration-section .form-control,
+.wordpress-registration-section .form-select {
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+}
+
+/* Button */
+.wordpress-registration-section .btn-primary {
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.wordpress-registration-section .btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+/* Cousre web design page ======================================= */
+.home-section-web {
+    background-image: url('./assets/images/image-gallery-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.home-section-web::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.home-section-web .container {
+    position: relative;
+    z-index: 2;
+}
+
+.home-section-web h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.home-section-web h2:hover {
+    color: #05e386;
+}
+
+.home-section-wordpress p {
+    font-size: 16px;
+    color: #f1f1f1;
+    font-weight: 700;
+}
+
+.home-section-web p:hover {
+    color: #05e386;
+}
+
+.web-design-course img {
+    height: 395px;
+}
+
+.web-design-course img:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.web-design-course .card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+}
+
+.web-design-course .card:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.web-design-course .form-label {
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+}
+
+/* Course Frontend Page =========================================== */
+.home-section-frontend {
+    background-image: url('./assets/images/web-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.home-section-frontend::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.home-section-frontend .container {
+    position: relative;
+    z-index: 2;
+}
+
+.home-section-frontend h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.home-section-frontend p {
+    font-size: 16px;
+    color: #f1f1f1;
+    font-weight: 700;
+}
+
+.home-section-frontend p:hover,
+.home-section-frontend h2:hover {
+    color: #05e386;
+}
+
+.frontend-design-course h2 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.frontend-design-course h2:hover {
+    color: #1630f6;
+}
+
+.frontend-design-course img {
+    height: 393px;
+    object-fit: cover;
+}
+
+.frontend-design-course img:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.frontend-design-course form {
+    max-width: 100%;
+}
+
+.frontend-design-course .main-child {
+    display: flex;
+}
+
+.frontend-design-course .col-md-6 {
+    width: 50%;
+}
+
+/* Course Backend Page =========================================== */
+.home-section-backend {
+    background-image: url('./assets/images/backend-image-home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.home-section-backend::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.home-section-backend .container {
+    position: relative;
+    z-index: 1;
+}
+
+.home-section-backend h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.home-section-backend p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.home-section-backend p:hover,
+.home-section-backend h2:hover,
+.course-backend-design h2:hover {
+    color: red;
+}
+
+/* Button Styling */
+.home-section-backend .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-section-backend .btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* New Section */
+.course-backend-design h2 {
+    font-weight: 600;
+}
+
+.course-backend-design h2:hover {
+    color: red;
+}
+
+.course-backend-design img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.course-backend-design img:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+/* Form  Input Layout */
+.course-backend-design .form-control-lg,
+.course-backend-design .form-select-lg {
+    font-size: 16px;
+    padding: 5px 5px;
+}
+
+.course-backend-design label {
+    font-size: 15px;
+}
+
+/* Button */
+.course-backend-design .btn-lg {
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* Course React Page ============================================ */
+.home-section-react {
+    background-image: url('./assets/images/register-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.home-section-react::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.home-section-react .container {
+    position: relative;
+    z-index: 1;
+}
+
+.home-section-react h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.home-section-react p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.home-section-react h2:hover,
+.home-section-react p:hover {
+    color: #fd390d;
+}
+
+/* Button Styling */
+.home-section-react .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-section-react .btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.course-react-design h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.course-react-design h2:hover {
+    color: #fd390d;
+}
+
+.course-react-design img {
+    width: auto;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.course-react-design img:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.course-react-design .form-control-lg,
+.course-react-design .form-select-lg {
+    font-size: 16px;
+    padding: 7px 7px;
+}
+
+.course-react-design .btn-lg {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Results for Students page ============================ */
+.home-section-result {
+    background-image: url('./assets/images/register-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.home-section-result::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.home-section-result .container {
+    position: relative;
+    z-index: 1;
+}
+
+.home-section-result h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.home-section-result p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.home-section-result h2:hover,
+.home-section-result p:hover {
+    color: #0d6efd;
+}
+
+/* Button Styling */
+.home-section-result .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-section-result .btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.result-design h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.result-design h2:hover {
+    color: #fd390d;
+}
+
+.result-design img {
+    width: auto;
+    height: 385px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.result-design img:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.result-design .form-label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.result-design .form-control-lg {
+    font-size: 16px;
+    padding: 12px 12px;
+}
+
+.result-design .btn-lg {
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Footer Section Page ================================= */
+.footer-section-page {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* Footer Headings */
+.footer-section-page h5 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.footer-section-page h5:hover {
+    color: #6aa5ff;
+}
+
+/* About Text */
+.footer-section-page .text-about {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.footer-section-page .text-about:hover {
+    color: #efff1a;
+}
+
+/* Footer Links */
+.footer-section-page .footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+}
+
+.footer-section-page .footer-link:hover {
+    color: #11ff7c;
+    transform: translateX(5px);
+}
+
+/* Contact Icons */
+.footer-section-page .contect-text-icon {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.footer-section-page .contect-text-icon:hover {
+    color: #ff5733;
+}
+
+/* Contact Links */
+.footer-section-page a.text-white {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.footer-section-page a.text-white:hover {
+    color: #0dfdc1 !important;
+}
+
+/* Social Media Icons */
+.footer-section-page .footer-social {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(105, 85, 85);
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.footer-section-page .footer-social:hover {
+    background-color: #0d6efd;
+    color: #fff;
+    transform: translateY(-4px);
+}
+
+/* Footer Bottom Text */
+.footerer-section-page hr {
+    margin: 10px 0;
+}
+
+.footerer-section-page .text-center p {
+    font-size: 13px;
+    color: #ffffff;
+}
